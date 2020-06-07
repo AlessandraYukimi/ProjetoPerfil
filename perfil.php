@@ -16,7 +16,7 @@
     <nav class="navbar text-primary navbar-expand-lg navbar-light bg-light>
    
             <a class="navbar-brand href="index.php">
-                <img src="inc/img/logo.jpeg" width="100" height="100">
+                <img src="./assets/img/logo3.png" width="150" height="55">
                  
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,10 +59,10 @@
         </nav>
 </header>
 
-<div id="divPai">
+<div id="divPai">;
   <aside>
-    <h2>Professor Fulano</h2> 
-    <br/>
+    <h3>Professor Fulano</h3> 
+    <br>
 
    
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -97,7 +97,7 @@
        </div>
    </div>
    <div class="carousel-item">
-      <img src="./assets/img/4.jpg" class="d-block w-100" alt="Foto3">
+      <img src="./assets/img/4.jpg" class="d-block w-100" alt="Foto4">
       <div class="carousel-caption d-none d-md-block">
         </div>
    </div>
@@ -110,7 +110,8 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<br>
+</br>
+
 <h6>Modalidade</h6>
 Balé <br><br>
 <h6>Dificuldade</h6>
@@ -123,9 +124,10 @@ Zoom / Google Meet<br><br>
 </aside>
 <main>
         <section>
-            <h3>Apresentação</h3>
+            <h3>Apresentação</h3></br>
             <article>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates velit, dignissimos dolorum facere reiciendis enim aut sint reprehenderit, iste in sed nemo. Dicta rem nobis corrupti eaque eveniet nesciunt nostrum?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque debitis ullam facere quisquam reprehenderit odit? Voluptatum voluptas modi nostrum fuga sit vel. Iste odio excepturi eius veritatis? Ullam, debitis nulla.
             </article>
 
         </section>
@@ -134,18 +136,18 @@ Zoom / Google Meet<br><br>
 
         <form>
         <div class="form-row">
-                <h5 class="text-center pt-2 pb-0 ml-5"> Envie sua mensagem para o Professor!</h5>
+                <h5 class="text-center pt-2 pb-0 ml-5"> Entre em contato com o Professor!</h5>
 </div>
-  <div class="form-group col-md-4">
+  <div class="form-group col-md-6">
     <label for="exampleFormControlInput1">Nome Completo</label>
     <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Preencha seu nome">
   </div>
-  <div class="form-group col-md-4">
+  <div class="form-group col-md-6">
     <label for="exampleFormControlInput2">Email</label>
     <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
   </div>
   
-  <div class="form-group col-md-4">
+  <div class="form-group col-md-6">
     <label for="exampleFormControlTextarea1">Mensagem</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
   </div>

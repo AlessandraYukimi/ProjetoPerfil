@@ -5,6 +5,28 @@
     box-sizing: border-box;
 }
 
+.navbar.navbar-expand-md.fixed-top {
+    display: flex;
+    padding-top: 0;
+  }
+  
+  .navbar.navbar-expand-md.fixed-top>.container {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  #navbarNav,
+  nav-item {
+    margin: 10px 0 5px 0;
+    font-size: medium;
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-weight: 500;
+    background-image: linear-gradient(to right, rgb(146, 128, 128) , rgb(238, 36, 113));
+    }
+  
+  
 
 
 body {
@@ -15,17 +37,25 @@ aside {
         border: 1px dashed pink;
         width: 40%;
         margin-left: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
 
     }
 
 main {
         border: 1px dashed pink;
-        margin: 20px;
+        margin: 20px 20px;
         width: 60%;
+        display: flex;
+        flex-direction: column;
     }
 
+#divPai {
+    display: flex;
+}
 .carousel {
-    width: 35%;
+    width: 90%;
 }
 
 h3 {
