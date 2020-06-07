@@ -59,7 +59,7 @@
         </nav>
 </header>
 
-<body>
+<div id="divPai">
   <aside>
     <h2>Professor Fulano</h2> 
     <br/>
@@ -113,10 +113,12 @@
 <br>
 <h6>Modalidade</h6>
 Balé <br><br>
+<h6>Dificuldade</h6>
+Iniciante / Intermediário / Avançado <br><br>
 <h6>Plataforma da aula</h6>
 Zoom / Google Meet<br><br>
 <h6>Redes sociais</h6>
-<a href="https://github.com/AlessandraYukimi" target="_blank" rel="noopener" title="Acesse meu perfil no Facebook"><i class="fab fa-facebook-square"></i></a>  <a href="https://br.linkedin.com/in/alessandra-sugimoto-2596b152" target="_blank" rel="noopener" title="Acesse meu perfil no Instagram"><i class="fab fa-instagram"></i></a></p>
+<a href="" target="_blank" rel="noopener" title="Acesse meu perfil no Facebook"><i class="fab fa-facebook-square"></i></a>  <a href="" target="_blank" rel="noopener" title="Acesse meu perfil no Instagram"><i class="fab fa-instagram"></i></a></p>
 
 </aside>
 <main>
@@ -156,6 +158,6 @@ Zoom / Google Meet<br><br>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
-    
+    </div>
 </body>
 </html>
