@@ -13,9 +13,9 @@
 
 <body>
     <header>
-    <nav class="navbar text-primary navbar-expand-lg navbar-light bg-light>
+    <nav class="navbar text-primary navbar-expand-lg">
    
-            <a class="navbar-brand href="index.php">
+            <a class="navbar-brand" href="index.php">
                 <img src="./assets/img/logo3.png" width="150" height="55">
                  
             </a>
@@ -119,7 +119,7 @@ Iniciante / Intermediário / Avançado <br><br>
 <h6>Plataforma da aula</h6>
 Zoom / Google Meet<br><br>
 <h6>Redes sociais</h6>
-<a href="" target="_blank" rel="noopener" title="Acesse meu perfil no Facebook"><i class="fab fa-facebook-square"></i></a>  <a href="" target="_blank" rel="noopener" title="Acesse meu perfil no Instagram"><i class="fab fa-instagram"></i></a></p>
+<a href="" target="_blank" rel="noopener" title="Acesse meu perfil no Facebook"><i class="fab fa-facebook fa-2x"></i></a>  <a href="" target="_blank" rel="noopener" title="Acesse meu perfil no Instagram"><i class="fab fa-instagram fa-2x"></i></a></p>
 
 </aside>
 <main>
@@ -132,22 +132,22 @@ Zoom / Google Meet<br><br>
 
         </section>
         
-</br>
+</br></br>
 
         <form>
         <div class="form-row">
                 <h5 class="text-center pt-2 pb-0 ml-5"> Entre em contato com o Professor!</h5>
 </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-10">
     <label for="exampleFormControlInput1">Nome Completo</label>
     <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Preencha seu nome">
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-10">
     <label for="exampleFormControlInput2">Email</label>
     <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
   </div>
   
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-10">
     <label for="exampleFormControlTextarea1">Mensagem</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
   </div>

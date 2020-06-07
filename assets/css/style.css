@@ -21,12 +21,14 @@
     font-size: medium;
     display: inline-block;
     width: 100%;
-    color: black;
-    font-weight: 500;
+    font-weight: 400;
     background-image: linear-gradient(to right, rgb(146, 128, 128) , rgb(238, 36, 113));
     }
   
-  
+    .navbar ul li a {
+        color: black;
+    }
+
 
 
 body {
@@ -44,7 +46,6 @@ aside {
     }
 
 main {
-        border: 1px dashed pink;
         margin: 20px 20px;
         width: 60%;
         display: flex;
@@ -56,10 +57,21 @@ main {
 }
 .carousel {
     width: 90%;
+    margin-left: 25px;
+}
+
+.carousel-indicators {
+    position: relative;
 }
 
 h3 {
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
     text-align: center;
+}
+
+form {
+    display: block;
+    justify-content: center;
+    margin-left: 150px;
 }
