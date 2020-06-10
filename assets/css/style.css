@@ -5,45 +5,36 @@
     box-sizing: border-box;
 }
 
-.navbar.navbar-expand-md.fixed-top {
-    display: flex;
-    padding-top: 0;
-  }
-  
-  .navbar.navbar-expand-md.fixed-top>.container {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  
-  #navbarNav,
-  nav-item {
-    margin: 10px 0 5px 0;
-    font-size: medium;
-    display: inline-block;
-    width: 100%;
-    font-weight: 400;
-    background-image: linear-gradient(to right, rgb(146, 128, 128) , rgb(238, 36, 113));
-    }
-  
-    .navbar ul li a {
-        color: black;
-    }
-
 
 
 body {
     justify-content: space-between;
 }
 
+.backg {
+    background-repeat: no-repeat;
+}
+
+
+.título {
+    background-color:  black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    }
+  
+
 aside {    
-        border: 1px dashed pink;
+        border: 1px dashed rgb(173, 173, 173);
         width: 40%;
         margin-left: 20px;
         margin-top: 20px;
         display: flex;
         flex-direction: column;
-
     }
+
+
 
 main {
         margin: 20px 20px;
@@ -54,6 +45,7 @@ main {
 
 #divPai {
     display: flex;
+    margin-top: 20px;
 }
 .carousel {
     width: 90%;
@@ -62,6 +54,11 @@ main {
 
 .carousel-indicators {
     position: relative;
+}
+
+.carousel-indicators li {
+    width: 60px;
+    height: 45px;
 }
 
 h3 {
@@ -74,4 +71,16 @@ form {
     display: block;
     justify-content: center;
     margin-left: 150px;
+}
+
+form h5 {
+    margin-left: 160px;
+}
+
+footer {
+    display: flex;
+}
+
+.navbar {
+    background-color: white;
 }

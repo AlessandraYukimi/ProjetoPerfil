@@ -11,53 +11,57 @@
     
 </head>
 
-<body>
+<body background="./assets/img/imagem1.png" class="backg">
     <header>
-    <nav class="navbar text-primary navbar-expand-lg">
+    <nav class="navbar text-primary navbar-expand-lg navbar-light">
    
-            <a class="navbar-brand" href="index.php">
-                <img src="./assets/img/logo3.png" width="150" height="55">
-                 
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Como funciona</a>
-                    </li>
-                    
-                    <li class="navbar-nav ml-auto">
-                   <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" data-toggle="dropdown" id="navDrop">Modalidades</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
-                        <a class="dropdown-item" href="#">Ballet</a>
-                        <a class="dropdown-item" href="#">Contemporâneo</a>
-                        <a class="dropdown-item" href="#">Dança de Salão</a>
-                        <a class="dropdown-item" href="#">Dança do Ventre</a>
-                        <a class="dropdown-item" href="#">Funk</a>
-                        <a class="dropdown-item" href="#">Hip Hop/Breaking</a>
-                        <a class="dropdown-item" href="#">Jazz</a>
-                        <a class="dropdown-item" href="#">Samba</a>
-                        <a class="dropdown-item" href="#">Sapateado</a>
-                        <a class="dropdown-item" href="#">Vídeo Dance</a>
-                        <a class="dropdown-item" href="#">Outros</a>
-                    </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Quero dar aulas</a>
-                    </li>
-                                  
-                </ul>
-            
-        </nav>
+   <a class="navbar-brand" href="index.php">
+       <img src="./assets/img/logo.jpeg" width="100" height="100">
+        
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+       
+       <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+               
+               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="localhost/projeto-dh/comofunciona.php">Como funciona</a>
+           </li>
+           
+           <li class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+                   <a class="nav-link" href="#" data-toggle="dropdown" id="navDrop">Modalidades</a>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+               <a class="dropdown-item" href="#">Ballet</a>
+               <a class="dropdown-item" href="#">Contemporâneo</a>
+               <a class="dropdown-item" href="#">Dança de Salão</a>
+               <a class="dropdown-item" href="#">Dança do Ventre</a>
+               <a class="dropdown-item" href="#">Funk</a>
+               <a class="dropdown-item" href="#">Hip Hop/Breaking</a>
+               <a class="dropdown-item" href="#">Jazz</a>
+               <a class="dropdown-item" href="#">Samba</a>
+               <a class="dropdown-item" href="#">Sapateado</a>
+               <a class="dropdown-item" href="#">Vídeo Dance</a>
+               <a class="dropdown-item" href="#">Outros</a>
+           </div>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Quero dar aulas</a>
+           </li>
+                         
+       </ul>
+   
+</nav>
 </header>
+
+<div class = título>
+  Saiba mais sobre o seu Professor!!
+</div>
 
 <div id="divPai">;
   <aside>
@@ -132,11 +136,11 @@ Zoom / Google Meet<br><br>
 
         </section>
         
-</br></br>
+</br></br></br>
 
         <form>
         <div class="form-row">
-                <h5 class="text-center pt-2 pb-0 ml-5"> Entre em contato com o Professor!</h5>
+                <h5 class="text-center pt-2 pb-0"> Entre em contato com o Professor!</h5>
 </div>
   <div class="form-group col-md-10">
     <label for="exampleFormControlInput1">Nome Completo</label>
@@ -157,9 +161,28 @@ Zoom / Google Meet<br><br>
             </div>
 </form>
     </main>
+    </div>
+</br></br>
+    <footer class="page-footer font-small text-white bg-dark pt-4">
+
+  <div class="container">
+  <div class="container-fluid">
+      <ul class="text-center py-2">
+      <ul class="text-center">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Você dá aula de dança on-line?</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-primary btn-rounded">Cadastre-se</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+  </div>
+    </div>
+</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
-    </div>
+    
 </body>
 </html>
