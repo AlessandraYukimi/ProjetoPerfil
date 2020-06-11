@@ -17,16 +17,16 @@ body {
 
 
 .título {
-    background-color:  black;
+    background-color:  rgb(124, 121, 122);
     color: white;
     text-align: center;
+    font-size: 22px;
     font-style: italic;
-    font-size: 25px;
     }
   
 
 aside {    
-        border: 1px dashed rgb(173, 173, 173);
+        border-right: 1px dotted rgb(196, 196, 196);
         width: 40%;
         margin-left: 20px;
         margin-top: 20px;
@@ -62,9 +62,9 @@ main {
 }
 
 h3 {
-    font-family: 'Dancing Script', cursive;
-    font-size: xx-large;
+    font-size: 35px;
     text-align: center;
+    font-family: 'Marck Script', cursive;
 }
 
 form {
